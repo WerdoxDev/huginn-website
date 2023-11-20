@@ -1,15 +1,9 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-export const metadata: Metadata = {
-   title: "Huginn",
-   description: "A hubby chat application",
-};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
    return (
       <html lang="en" className="h-full">
-         <title>Website Name</title>
+         <title>Huginn</title>
          <meta property="og:image" content="https://huginn.dev/screenshot.png" />
          <meta property="og:image:alt" content="An image of the huginn website" />
          <meta property="og:image:width" content="1053" />
