@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+   font-family: Poppins, sans-serif;
+}
+
+.main-gradient {
+   background: hsla(0, 0%, 19%, 1);
+
+   background: hsla(85, 62%, 64%, 1);
+
+   background: linear-gradient(45deg, hsla(85, 62%, 64%, 1) 0%, hsla(37, 100%, 68%, 1) 100%);
+
+   background: -moz-linear-gradient(45deg, hsla(85, 62%, 64%, 1) 0%, hsla(37, 100%, 68%, 1) 100%);
+
+   background: -webkit-linear-gradient(45deg, hsla(85, 62%, 64%, 1) 0%, hsla(37, 100%, 68%, 1) 100%);
+
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ADDC6C", endColorstr="#FFC25D", GradientType=1 );
+}
