@@ -15,6 +15,11 @@ export default function Home() {
                ></FollowSource>
                <FollowSource icon="/x.svg" text="Twitter (X)" link="https://twitter.com/Matin90365857"></FollowSource>
                <FollowSource icon="/discord.svg" text="Discord" link="https://discord.gg/cad9P5dm3y"></FollowSource>
+               <FollowSource
+                  icon="/github.svg"
+                  text="Github"
+                  link="https://github.com/WerdoxDev/huginn-website"
+               ></FollowSource>
             </div>
          </div>
       </div>
