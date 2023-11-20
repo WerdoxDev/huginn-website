@@ -8,9 +8,9 @@ export const metadata: Metadata = {
       ],
       siteName: "Huginn",
       type: "website",
-      title: "Huginn - A feature complete chat application",
+      title: "Huginn - A unique and feature complete open-source chat application",
       url: "https://huginn.dev",
-      description: "A hobby chat application",
+      description: "A hobby open-source chat application",
    },
 };
 
